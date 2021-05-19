@@ -44,8 +44,6 @@ public class Main {
 		DiscountService discount = new CampaignEndOfYear();
 		discount.discount(game.getGameName(), game.getGamePrice());
 		
-		// CRUD
-		
 			
 	}
 
