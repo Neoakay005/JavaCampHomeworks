@@ -15,7 +15,6 @@ public class Main {
 	public static void main(String[] args) {
 		// ----PLAYER MANAGEMENT----
 		PlayerManager playerManager = new PlayerManager(new PlayerCheckManager());
-		
 		Player playerHalil = new Player();
 		playerHalil.setId(1);
 		playerHalil.setFirstName("Halil Ýbrahim");
