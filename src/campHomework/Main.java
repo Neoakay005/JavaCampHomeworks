@@ -27,13 +27,11 @@ public class Main {
 		playerManager.updateRecord(playerHalil);
 		playerManager.deleteRecord(playerHalil);
 		
-		
 		// ----GAME MANAGEMENT----
 		GameStore game = new GameStore(1, "Hidden & Dangerous II", 14.99);
 		
 		GameStoreManager gameManager = new GameStoreManager();
 		gameManager.buy(playerHalil, game);
-		
 		
 		// ----DISCOUNT MANAGEMENT----
 		CampaignManager campaignManager = new CampaignManager(new CampaignSpring());
